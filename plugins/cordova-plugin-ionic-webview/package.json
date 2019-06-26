@@ -2,26 +2,26 @@
   "_args": [
     [
       {
-        "raw": "cordova-plugin-ionic-webview@^4.0.0",
+        "raw": "cordova-plugin-ionic-webview@^4.1.0",
         "scope": null,
         "escapedName": "cordova-plugin-ionic-webview",
         "name": "cordova-plugin-ionic-webview",
-        "rawSpec": "^4.0.0",
-        "spec": ">=4.0.0 <5.0.0",
+        "rawSpec": "^4.1.0",
+        "spec": ">=4.1.0 <5.0.0",
         "type": "range"
       },
-      "D:\\Ionic\\tab"
+      "D:\\teste\\ionic4"
     ]
   ],
-  "_from": "cordova-plugin-ionic-webview@>=4.0.0 <5.0.0",
+  "_from": "cordova-plugin-ionic-webview@>=4.1.0 <5.0.0",
   "_hasShrinkwrap": false,
-  "_id": "cordova-plugin-ionic-webview@4.1.0",
+  "_id": "cordova-plugin-ionic-webview@4.1.1",
   "_inCache": true,
   "_location": "/cordova-plugin-ionic-webview",
   "_nodeVersion": "10.16.0",
   "_npmOperationalInternal": {
     "host": "s3://npm-registry-packages",
-    "tmp": "tmp/cordova-plugin-ionic-webview_4.1.0_1560167850443_0.16818025521363333"
+    "tmp": "tmp/cordova-plugin-ionic-webview_4.1.1_1561550920065_0.17385702705126937"
   },
   "_npmUser": {
     "name": "ionicjs",
@@ -30,23 +30,22 @@
   "_npmVersion": "6.9.0",
   "_phantomChildren": {},
   "_requested": {
-    "raw": "cordova-plugin-ionic-webview@^4.0.0",
+    "raw": "cordova-plugin-ionic-webview@^4.1.0",
     "scope": null,
     "escapedName": "cordova-plugin-ionic-webview",
     "name": "cordova-plugin-ionic-webview",
-    "rawSpec": "^4.0.0",
-    "spec": ">=4.0.0 <5.0.0",
+    "rawSpec": "^4.1.0",
+    "spec": ">=4.1.0 <5.0.0",
     "type": "range"
   },
   "_requiredBy": [
-    "#USER",
     "/"
   ],
-  "_resolved": "http://maven.policiamilitar.mg.gov.br/nexus/repository/npm-group/cordova-plugin-ionic-webview/-/cordova-plugin-ionic-webview-4.1.0.tgz",
-  "_shasum": "102404239ae019112fe600799bc8ca0c9a15b26a",
+  "_resolved": "http://maven.policiamilitar.mg.gov.br/nexus/repository/npm-group/cordova-plugin-ionic-webview/-/cordova-plugin-ionic-webview-4.1.1.tgz",
+  "_shasum": "7bdfbfaa498f6bd0f92db4cb51ce0c486ac07233",
   "_shrinkwrap": null,
-  "_spec": "cordova-plugin-ionic-webview@^4.0.0",
-  "_where": "D:\\Ionic\\tab",
+  "_spec": "cordova-plugin-ionic-webview@^4.1.0",
+  "_where": "D:\\teste\\ionic4",
   "author": {
     "name": "Ionic Team"
   },
@@ -73,12 +72,12 @@
   },
   "directories": {},
   "dist": {
-    "integrity": "sha512-aY1yI042TMgyDoh07rUSxSedlTwQfrvS44UnpakmCqmA/BapjSv88ixa5qUun95vwsYdTERX2VJp6h/YrR1lFQ==",
-    "shasum": "102404239ae019112fe600799bc8ca0c9a15b26a",
-    "tarball": "http://maven.policiamilitar.mg.gov.br/nexus/repository/npm-group/cordova-plugin-ionic-webview/-/cordova-plugin-ionic-webview-4.1.0.tgz",
+    "integrity": "sha512-y8drBhMdkHKUr0zu+UGkFGsDrkCsxjbCd3RzzlyDxcEzdHWvasRM5gyDiKBHkziT2iHYzEAjXwkT1ZXKU3OY9Q==",
+    "shasum": "7bdfbfaa498f6bd0f92db4cb51ce0c486ac07233",
+    "tarball": "http://maven.policiamilitar.mg.gov.br/nexus/repository/npm-group/cordova-plugin-ionic-webview/-/cordova-plugin-ionic-webview-4.1.1.tgz",
     "fileCount": 24,
-    "unpackedSize": 134360,
-    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJc/kWrCRA9TVsSAnZWagAAjxsP/RvoaYGN5udAkfsL3dzs\nx0VX0dd7hjyzFRMS5qNcXGpAkNmakPC+V5uFuv+AvYLtVHbtBlYx2nf1LnLD\nLL+CdUu57WPE5orU9X1vV8hjYrv2dPmZPpLbXyMpp5BdcC97x7YjDQazMzhT\nZJFS3MIpWQrcEkPcKEPgmEBwDLoqamyfZB7XtbYV2wW78c0xtZ3OUjcOOxyB\npdjyLodpF6OICU5qrUgKuxX8NMAO9o2yWNjhFHNCz3nfVRp/tnU1pXruh+b6\nz/kejx1EJQFpxnKv4wGQMkPZzUYnZBfxA6Z5Ma5CrtAPZcsFJQxmKMVyTIkl\nb6nUisLGtkzBeIRyVuZ967PcCyeJkf2kGC0wP4ydeohVyp71OK3yHv0uwuq6\nm2IlePcXeTkUoJiuD6BZ0gIT5AJv30+xoiNWL64UV52wXOs6XYLBHq2Be9hw\ndCQBgJ4cUeZU6Cn6eslnN+o+ZpsRzof/2s4/TcqwxLqBE2ikk2ICjqwIug5H\nIbw3hOAn5TIq4zxg4HVrW9PZ+CQ4w4z7oKb++wkhDoV3olJDNTtHBLHtSqqs\nfZSluc4iBURvzOL40M8HdMuFTXmx5kLnOu4rcj9cz1zhi/kMhIe5JgOakpcK\nVVCsrRskuh9tUgI7mh+Mz44mhv8YnfCJCPdexrXMZhPta6/R0pA6vNsSW7m/\nKdH+\r\n=zNja\r\n-----END PGP SIGNATURE-----\r\n"
+    "unpackedSize": 135161,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJdE2BICRA9TVsSAnZWagAAyKkP/3/GjoMqtAsUO17/h/mP\nG5Pj8j7z/m/yHRdhgK8XME7+Ll+uW4ceh3lCd0ksFYySVV2fvsstujQflYk6\n/TIERmA2DCq4qyF/MiJju+Ih86rYrw+D4RSITB4HNY5kLR+WTA6K52DdAVwF\nkZhTz/UtpOxvyKmcHuF5iKTs2Rbp8zlciSz3RGu380WGPVMAktBwytpXEJYq\n6+cFZSraeMZ/XjSekYq6ebA8bj6ZMhDdoSgzEdn4ejpzanwmJjpvb6L09OI8\nsXqlOJBDlkcR3I20tpN4JdU8t9j0TaEyMdfo5JiMgoEEj+nnCAhXy9Dq6S4C\nU2NFx44zd+8MbXQaoSErIDqeUg4tuTb4R7tq34ObJfObgg2IryzFDd/JDkCy\n+nUfuvZLv/J2a8T5Ztz6/U+N9ClQPLf7Fc4l9k+SN29i+aeNBJrmPaIMA83u\nXwxvt3Y6ZiJlgtkMYJeFSq2/VWuqflUjUTaUx9Webz9vdo42Z81t50X3ndjn\ny6vZNp+rOsva3D9hQLQcsYalpoiY5ehVxj8KKQCMxZRDuSftIJyCkB8M2jhp\nEvOPrb1c+YRqN8xxy9jIwbQFTWJlsPNEp8RVboO2DPm9WTUXOvGlNe22cpk0\nwyLIqp8dPlN7zbJMZnbzTJw8g/5vS/Iq+3d+lne0R60gp/WJUyYSk/lYWg49\nh98g\r\n=wCLy\r\n-----END PGP SIGNATURE-----\r\n"
   },
   "engines": {
     "cordovaDependencies": {
@@ -93,7 +92,7 @@
       }
     }
   },
-  "gitHead": "ffcbfb9476b665884bd594ebd188c99285a85337",
+  "gitHead": "f5c0bbda498c526dc97bca977071b38285018f6b",
   "homepage": "https://github.com/ionic-team/cordova-plugin-ionic-webview#readme",
   "keywords": [
     "cordova",
@@ -152,5 +151,5 @@
     "sync_plugin_xml": "sync-cordova-xml package.json plugin.xml --output=plugin.xml",
     "version": "npm run sync_plugin_xml && git add plugin.xml"
   },
-  "version": "4.1.0"
+  "version": "4.1.1"
 }

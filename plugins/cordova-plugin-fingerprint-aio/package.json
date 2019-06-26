@@ -10,7 +10,7 @@
         "spec": "latest",
         "type": "tag"
       },
-      "D:\\Ionic\\tab"
+      "D:\\teste\\ionic4"
     ]
   ],
   "_from": "cordova-plugin-fingerprint-aio@latest",
@@ -39,13 +39,14 @@
     "type": "tag"
   },
   "_requiredBy": [
-    "#USER"
+    "#USER",
+    "/"
   ],
   "_resolved": "http://maven.policiamilitar.mg.gov.br/nexus/repository/npm-group/cordova-plugin-fingerprint-aio/-/cordova-plugin-fingerprint-aio-1.7.0.tgz",
   "_shasum": "7f998587106aa47df3cb9666396b9021b6b419f7",
   "_shrinkwrap": null,
   "_spec": "cordova-plugin-fingerprint-aio",
-  "_where": "D:\\Ionic\\tab",
+  "_where": "D:\\teste\\ionic4",
   "author": {
     "name": "Niklas Merz"
   },

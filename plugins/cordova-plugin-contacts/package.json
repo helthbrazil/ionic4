@@ -10,7 +10,7 @@
         "spec": "3.0.1",
         "type": "version"
       },
-      "D:\\Ionic\\tab"
+      "D:\\teste\\ionic4"
     ]
   ],
   "_from": "cordova-plugin-contacts@3.0.1",
@@ -38,13 +38,14 @@
     "type": "version"
   },
   "_requiredBy": [
-    "#USER"
+    "#USER",
+    "/"
   ],
   "_resolved": "http://maven.policiamilitar.mg.gov.br/nexus/repository/npm-group/cordova-plugin-contacts/-/cordova-plugin-contacts-3.0.1.tgz",
   "_shasum": "37aadabec93c982c04a3dcda0e4f1cfa096a84ab",
   "_shrinkwrap": null,
   "_spec": "cordova-plugin-contacts@3.0.1",
-  "_where": "D:\\Ionic\\tab",
+  "_where": "D:\\teste\\ionic4",
   "author": {
     "name": "Apache Software Foundation"
   },

@@ -1,1 +1,0 @@
-Esse diretório deve existir

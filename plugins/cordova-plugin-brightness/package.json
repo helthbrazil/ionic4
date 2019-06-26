@@ -10,7 +10,7 @@
         "spec": "latest",
         "type": "tag"
       },
-      "D:\\Ionic\\tab"
+      "D:\\teste\\ionic4"
     ]
   ],
   "_from": "cordova-plugin-brightness@latest",
@@ -38,13 +38,14 @@
     "type": "tag"
   },
   "_requiredBy": [
-    "#USER"
+    "#USER",
+    "/"
   ],
   "_resolved": "http://maven.policiamilitar.mg.gov.br/nexus/repository/npm-group/cordova-plugin-brightness/-/cordova-plugin-brightness-0.2.0.tgz",
   "_shasum": "af2b57d5f8054828a54f86bd6886d015d00293bc",
   "_shrinkwrap": null,
   "_spec": "cordova-plugin-brightness",
-  "_where": "D:\\Ionic\\tab",
+  "_where": "D:\\teste\\ionic4",
   "author": {
     "name": "Evgeniy Lukovsky"
   },
