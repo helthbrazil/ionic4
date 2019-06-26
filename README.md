@@ -1,18 +1,34 @@
-# Ionic 4 Demo
-Clone the project.
-Run the command to install the dependencies
-`npm i`
+# IonicGoogleMapsBasicExample
+A basic example of integration between Ionic and Google Maps
 
-------------
+## How to run this example
 
-to open the application in the browser run the command
-`ionic serve --lab`
+### With the Ionic CLI:
 
-------------
+Run the command below to install the dependencies
 
-To build an .apk file run the command
-`ionic cordova build android --prod --aot`
+```bash
+$ npm install
+```
 
-The generated file will be in the directory
-`...\ionic4\platforms\android\app\build\outputs\apk\debug\app-debug.apk`
+Then, to run it in a Browser
 
+```bash
+$ ionic serve --lab
+```
+
+Or to run it in a Device
+
+Android
+
+```bash
+$ ionic cordova platform add android
+$ ionic cordova run android
+```
+
+iOS
+
+```bash
+$ ionic cordova platform add ios
+$ ionic cordova run ios
+```
