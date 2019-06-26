@@ -1,0 +1,21 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>
+      Tab Three
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content *ngIf="mostrar">
+
+
+  <ion-slides pager="true" [options]="slideOpts">
+    <ion-slide *ngFor="let image of imagens">
+      <img [src]="image" width="100%" alt="Sem foto">
+    </ion-slide>
+  </ion-slides>
+
+  <ion-button style="margin: 10px" expand="block" (click)="baterFoto()">Tirar Foto</ion-button>
+
+
+</ion-content>

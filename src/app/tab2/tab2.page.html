@@ -1,0 +1,88 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>
+      Tab Two
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+
+  <!-- fab placed in the center of the content with a list on each side -->
+  <ion-fab vertical="center" horizontal="end" slot="fixed">
+    <ion-fab-button>
+      <ion-icon name="share"></ion-icon>
+    </ion-fab-button>
+    <ion-fab-list side="bottom">
+      <ion-fab-button>
+        <ion-icon name="logo-facebook"></ion-icon>
+      </ion-fab-button>
+    </ion-fab-list>
+    <ion-fab-list side="start">
+      <ion-fab-button>
+        <ion-icon name="logo-instagram"></ion-icon>
+      </ion-fab-button>
+    </ion-fab-list>
+    <ion-fab-list side="top">
+      <ion-fab-button>
+        <ion-icon name="logo-twitter"></ion-icon>
+      </ion-fab-button>
+    </ion-fab-list>
+  </ion-fab>
+
+
+  <ion-list>
+    <ion-item>
+      <ion-label>Data</ion-label>
+      <ion-datetime display-format="DD/MM/YYYY"></ion-datetime>
+    </ion-item>
+
+    <ion-item *ngFor="let entry of form">
+      <ion-label>{{entry.val}}</ion-label>
+      <ion-checkbox slot="end" [(ngModel)]="entry.isChecked"></ion-checkbox>
+    </ion-item>
+
+  </ion-list>
+
+  <ion-list>
+    <ion-item>
+      <ion-progress-bar type="indeterminate"></ion-progress-bar>
+    </ion-item>
+    <ion-item>
+      <ion-progress-bar type="indeterminate" reversed="true"></ion-progress-bar>
+    </ion-item>
+    <ion-item>
+      <ion-progress-bar value="0.25" buffer="0.5"></ion-progress-bar>
+    </ion-item>
+  </ion-list>
+
+  <!-- Toggles in a List -->
+  <ion-list>
+    <ion-item>
+      <ion-label>Pepperoni</ion-label>
+      <ion-toggle></ion-toggle>
+    </ion-item>
+
+    <ion-item>
+      <ion-label>Sausage</ion-label>
+      <ion-toggle disabled="true"></ion-toggle>
+    </ion-item>
+
+    <ion-item>
+      <ion-label>Mushrooms</ion-label>
+      <ion-toggle></ion-toggle>
+    </ion-item>
+    <ion-item>
+      <ion-range (ionChange)="atualizarBrilho()" pin="true" snaps="true" [(ngModel)]="brilho" min="0" max="100" step="5">
+        <ion-icon size="small" slot="start" name="sunny"></ion-icon>
+        <ion-icon slot="end" name="sunny"></ion-icon>
+      </ion-range>
+    </ion-item>
+  </ion-list>
+
+  <!-- <ion-button style="margin: 10px" (click)="buscarContatos()" expand="block">Buscar Contatos</ion-button> -->
+
+
+
+
+</ion-content>
