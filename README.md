@@ -23,12 +23,12 @@ Android
 
 ```bash
 $ ionic cordova platform add android
-$ ionic cordova run android
+$ ionic cordova run android --aot --prod
 ```
 
 iOS
 
 ```bash
 $ ionic cordova platform add ios
-$ ionic cordova run ios
+$ ionic cordova run ios --aot --prod
 ```
